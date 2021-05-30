@@ -1,0 +1,15 @@
+[submodule "AXVisionSDK/3rdparty/sophus_IOS/Sophus"]
+	path = AXVisionSDK/3rdparty/sophus_IOS/Sophus
+	url = git@github.com:t-AX/Sophus.git
+[submodule "AXVisionSDK/3rdparty/eigen_IOS/eigen-git-mirror"]
+	path = AXVisionSDK/3rdparty/eigen_IOS/eigen-git-mirror
+	url = git@github.com:t-AX/eigen-git-mirror.git
+[submodule "Frameworks/polyclipping_IOS/polyclipping"]
+	path = Frameworks/polyclipping_IOS/polyclipping
+	url = git@github.com:t-AX/polyclipping.git
+[submodule "Frameworks/opencv_IOS/opencv"]
+	path = Frameworks/opencv_IOS/opencv
+	url = git@github.com:t-AX/opencv.git
+[submodule "Frameworks/vikit_IOS/vikit_common"]
+	path = Frameworks/vikit_IOS/vikit_common
+	url = git@github.com:t-AX/vikit_common

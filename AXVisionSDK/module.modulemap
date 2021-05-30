@@ -1,0 +1,6 @@
+// module.modulemap
+
+module AXVisionSDK {
+    umbrella header "AXVisionSDK.h"
+    export *
+}
