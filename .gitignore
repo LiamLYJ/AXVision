@@ -1,0 +1,110 @@
+### https://raw.github.com/github/gitignore/cc542de017c606138a87ee4880e5f06b3a306def/Swift.gitignore
+#python 
+*.pyc
+
+#C++
+*/C++/build/*
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/buildlog
+.bundle/
+vendor/
+
+# .DS_Store
+.DS_Store
+
+# Swiftlint documentation
+swiftlint_docs.md
+
+# APP Sample Data
+SampleResource
+
+# VSCode
+.vscode/
+
+# Framework
+*.framework
+Frameworks/
+
+# testData 
+Data/test_data
+Data/remode_test_data.zip
+Data/sin2_tex2_h1_v8_d
+Data/lab_depth
+Data/lab_roof
+
+# tmp 
+tmp
+
+# ORB_SLAM
+dependency/ofxiOSBoost
+AXVisionSDK/SLAM/ORB_SLAM/Data/ORBvoc.txt
+
+# 3rdParty
+AXVisionSDK/3rdparty/sophus/
+AXVisionSDK/3rdparty/gtest/
+
+#license
+Playground/Settings.bundle/
